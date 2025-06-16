@@ -1,0 +1,90 @@
+html {
+	
+}
+body {
+}
+#top_banner {
+	display: none;
+}
+
+
+#background {
+    background-color: #FFF;
+    background: linear-gradient(transparent, #ffffff4d), url('https://files.catbox.moe/62lin2.gif');
+    background-size: 100% auto;
+    background-attachment: local;
+    background-repeat: repeat;
+    filter:grayscale(100%);
+    box-shadow: inset white 0px 5px 3px -3px, inset rgb(28, 28, 28) 0 0 5px, rgb(233, 227, 227) inset 0 0 16px;
+}
+.allMessages {
+    margin: 5px;
+    padding: 10px;
+    max-width: 80%;
+    box-shadow: inset white 0px 5px 3px -3px, inset rgb(28, 28, 28) 0 0 5px, rgb(233, 227, 227) inset 0 0 16px;
+}
+.received {
+    float: left;
+    background-color: white;
+    border-radius: 30px 30px 30px 0px;
+}
+.sent {
+    border-radius: 30px 30px 0px 30px;
+    background-color: white;
+    float: right;
+}
+.msgBody {
+    text-align: justify;
+}
+
+.senderInfo {
+	
+}
+#loadMore {
+	
+}
+#timestamp {
+	
+}
+#settings {
+	/* Controls the settings icon, use background-image to change icon */
+}
+#scrollToBottom {
+	/* Adjusts the hovering 'scroll to bottom' button */
+}
+.ctxMenuOption {
+	/* Adjusts the options for the menus when right clicking a message */
+}
+.mod, .owner, .beta {
+    content: " ";
+    height: 10pt;
+    width: 10pt;
+    background: transparent;
+    border-radius: 50%;
+    background-image: url(/media/verified.png);
+    background-size: 100% 100%;
+    margin-left: 5px;
+    filter: contrast(1.5);
+}
+
+#settingsWindow {
+	/* Adjusts the background for the settings window */
+}
+.pinned {
+	
+}
+#replyBanner {
+	
+}
+.emoji {
+	/* Selects emojis that are inside messages */
+}
+#emojiTray {
+	/* Selects the popup box that displays the chat emojis */
+}
+#is_typing {
+	/* Adjusts the bubble that appears when someone is typing */
+}
+#input {
+
+}

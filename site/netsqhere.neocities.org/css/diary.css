@@ -1,0 +1,203 @@
+html {
+    cursor: url(https://files.catbox.moe/b19gxn.cur), auto;
+    font-family: 'IPAMonaPGothic';
+    background-image: url(/images/cmIKu.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.around {
+    margin: 3rem auto 1rem auto;
+    width: fit-content;
+    height: fit-content;
+}
+
+.round2 {
+    padding: 5px;
+    border: 9px solid black;
+    border-image: url(/images/border2.png) 8 fill round;
+
+}
+
+.wrap {
+    border: 4px double rgb(0, 0, 0);
+    height: fit-content;
+    width: 550px;
+    border-radius: 5px;
+    padding: 5px;
+    outline: 4px groove rgb(255, 255, 255);
+}
+
+.head {
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    height: 6em;
+    border-radius: 5px;
+    overflow: hidden;
+    background-image: url(/images/✩.jpg);
+    background-size: contain;
+}
+
+.head h1 {
+    text-shadow: -0.5px -0.5px 0 #ffffff, 0.5px -0.5px 0 #ffffff, -0.5px 0.5px 0 #ffffff, 0.5px 0.5px 0 #ffffff;
+    padding-left: 5px;
+}
+
+.block {
+    width: fit-content;
+    border: 1px solid rgb(0, 0, 0);
+    height: 30em;
+    gap: 2px;
+    display: flex;
+    flex-direction: row;
+    background-image: url(/images/dot\ tile.png);
+    padding: 5px;
+    margin: 0.3em auto;
+    border-radius: 5px;
+}
+
+.nav {
+    border: 1px solid rgb(0, 0, 0);
+    width: 240px;
+    border-radius: 5px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset #753e24 0px 5px 3px -3px, inset rgb(129, 67, 42) 0px 0px 5px, inset #a1553e 0px 0px 5px ;
+    background-image: url(/images/tumblr_inline_ml9dovHZ2s1qz4rgp540.gif);
+    backdrop-filter: blur(2px);
+    padding: 5px;
+    gap: 5px;
+}
+
+.musicplayer {
+    width: fit-content;
+    border: 1px solid black;
+    height: 4.5em;
+    background-image: url(/images/tumblr_inline_ml9dopLarp1qz4rgp540.gif);
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.musicplayer p {
+    color: #5c280f;
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+}
+
+.player {
+    width: 11rem;
+    padding: 2px;
+    display: inline-flex;
+    border: 1px solid black;
+    background-color: #ffffff;
+    height: 2em;
+    margin-inline: 5px;
+    border-radius: 10px;
+}
+
+#img, #song {
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+@keyframes marquee {
+0% {
+transform: translateX(100%);
+}
+
+100% {
+transform: translateX(-100%);
+}
+}
+
+#song p {
+    transform: translateX(100%);
+    animation: marquee 6s linear infinite;
+}
+
+#img {
+    width: 18%;
+    margin-right: 5px;
+}
+
+.pic {
+    width: 100%;
+    border: 1px solid black;
+    height: 9rem;
+    border-radius: 5px;
+    background-image: url(/images/gakuenkil.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.content {
+    border: 1px solid rgb(0, 0, 0);
+    width: 100%;
+    box-shadow: inset #753e24 0px 5px 3px -3px, inset rgb(129, 67, 42) 0px 0px 5px, inset #a1553e 0px 0px 5px ;
+    background-image: url(/images/dot\ tile.png);
+    border-radius: 5px;
+}
+
+.entries {
+    height: fit-content;
+    box-shadow: inset #753e24 0px 5px 3px -3px, inset rgb(129, 67, 42) 0px 0px 5px, inset #a1553e 0px 0px 5px ;
+    background-image: url(/images/tumblr_inline_ml9dopLarp1qz4rgp540.gif);
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0.5rem auto;
+    width: 95%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+h3 {
+    font-size: 1em;
+    padding-top: 5px;
+    color: #5c280f;
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+}
+
+h3:before {
+    content: url(/images/ghosts.webp);
+}
+
+.entrycon {
+    width: 90%;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0.5rem auto;
+    height: 10rem;
+    transition: ease 0.3s;
+    border-radius: 5px;
+    overflow-y: auto;
+    box-shadow: inset #ffffff 0px 5px 3px -3px, inset white 0px 0px 5px, inset #000000 0px 0px 5px ;
+    overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
+    padding: 1px;
+}
+
+i {
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+}
+
+p {
+    color: rgb(85, 44, 34);
+}
+
+span {
+    color:rgb(245, 21, 21);
+}
+
+.entrycon:hover {
+    height: 13rem;
+    transition: cubic-bezier(0.23, 1, 0.320, 1) 0.3s;
+}
+
+.entrycon::-webkit-scrollbar {
+    display: none;
+}

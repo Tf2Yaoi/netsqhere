@@ -1,0 +1,61 @@
+html {
+    background-image: url(/images/nett2.png);
+    background-repeat: no-repeat;
+    cursor: url(https://files.catbox.moe/b19gxn.cur), auto;
+}
+
+body {
+    height: 500px;
+    margin: 0px;
+    width: 700px;
+    font-family: 'IPAMonaPGothic';
+}
+
+.duo {
+    position: absolute;
+    left: 190px;
+    bottom: 0;
+    height: 650px;
+    z-index: 0;
+}
+
+.box {
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    border-width: 9px;
+    border-style: solid;
+    position: absolute;
+    left: 500px;
+    background-color: white;
+    top: 100px;
+    border-image: url(/images/pixelborder.png) 8 fill round;
+}
+
+.intro {
+    border: 4px double rgb(0, 0, 0);
+    height: fit-content;
+    width: 395px;
+    border-radius: 5px;
+    outline: 4px groove rgb(255, 255, 255);
+    box-shadow: inset #00000069 0px 5px 3px -3px, inset white 0px 0px 5px, inset #000000 0px 0px 5px ;
+    padding: 5px;
+    text-align: center;
+}
+
+.killy {
+    position: absolute;
+    z-index: 1;
+    height: 350px;
+    right: 270px;
+    bottom: 100px;
+}
+
+span {
+    font-family: 'White on Black';
+    font-size: 1.5em;
+}
+
+.logo {
+    margin-top: 5px;
+}

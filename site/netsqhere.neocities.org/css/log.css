@@ -1,0 +1,32 @@
+body { 
+    background-image: linear-gradient(transparent, #ffffffa3), url(/images/IY2WP.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.around {
+    backdrop-filter: blur(2px);
+    height: fit-content;
+    background: rgba(245, 245, 245, 0.342);
+    width: 98%;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: inset #0000002d 0px 5px 3px -3px, inset rgb(0, 0, 0) 0px 0px 5px, inset #00000088 0px 0px 5px ;
+    padding: 5px;
+}
+
+strong {
+    color: white;
+    margin-left: 5px;
+    font-size: 1.5em;
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+}
+
+p {
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+}

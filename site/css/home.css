@@ -8,11 +8,8 @@ html {
     cursor: url(https://files.catbox.moe/b19gxn.cur), auto;
 }
 
-:root {
+html {
     scrollbar-width: none;
-    ::-webkit-scrollbar {
-        display: none;
-    }
 }
 
 

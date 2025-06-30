@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background-image: url("/images/mono1.jpg");
+    background-image: url("../images/mono1.jpg");
     background-size: cover;
 }
 
@@ -52,12 +52,9 @@ a:link {
     text-decoration: none;
 }
 
-.love li {
-    border: 1px solid black;
-    width: 50%;
-    padding: 5px;
-    color: white;
-    backdrop-filter: blur(3px);
-    background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
-    box-shadow: inset white 0px 5px 3px -3px, black inset 0px 0px 5px, white inset 0px 0px 5px;
+li:hover {
+    position: relative;
+    top: 1.5px;
+    box-shadow: -2px -2px 2px inset rgb(255, 255, 255), 1px 1px 1px inset #96a5748a;
+    cursor: pointer;
 }

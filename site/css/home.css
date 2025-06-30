@@ -8,10 +8,6 @@ html {
     cursor: url(https://files.catbox.moe/b19gxn.cur), auto;
 }
 
-html {
-    scrollbar-width: none;
-}
-
 
 body {
     font-family: 'IPAMonaPGothic';
@@ -20,7 +16,7 @@ body {
 nav {
     border: 9px solid rgb(0, 0, 0);
     width: 165px;
-    height: 410px;
+    height: 28em;
     overflow: hidden;
     background-color: white;
     border-radius: 10px;
@@ -436,6 +432,20 @@ p span {
     image-rendering: pixelated;
 }
 
+.stamps img {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    -webkit-transition: all .6s ease;
+    transition: all .6s ease;
+}
+.stamps img:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    scale: 1.1;
+    image-rendering: pixelated;
+    z-index: 9;
+}
+
 .box {
     width: 100%;
     border: 1px solid rgba(15, 2, 2, 0);
@@ -549,6 +559,21 @@ p span {
     text-align: center;
     overflow-y: scroll;
     overflow-x: hidden;
+    
+}
+
+.neighbors img {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    -webkit-transition: all .6s ease;
+    transition: all .6s ease;
+}
+.neighbors img:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    scale: 1.1;
+    image-rendering: pixelated;
+    z-index: 9;
 }
 
 .neighbors::-webkit-scrollbar {
@@ -570,7 +595,7 @@ p span {
     padding: 5px;
     position: absolute;
     left: 840px;
-    top: 70px;
+    top: 75px;
     background-image: url(../images/mono1.jpg);
     background-size: contain;
     align-items: center;

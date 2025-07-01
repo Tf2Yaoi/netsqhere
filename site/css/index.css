@@ -1,35 +1,54 @@
 html {
-    background-image: url(/images/nett2.png);
-    background-repeat: no-repeat;
+    background-color: black;
+    font-family: 'IPAMonaPGothic';
     cursor: url(https://files.catbox.moe/b19gxn.cur), auto;
 }
 
+
 body {
-    height: 500px;
-    margin: 0px;
-    width: 700px;
-    font-family: 'IPAMonaPGothic';
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 1s;
 }
 
-.duo {
-    position: absolute;
-    left: 190px;
-    bottom: 0;
-    height: 650px;
-    z-index: 0;
+body.fade-in {
+        opacity: 1;
 }
+
+.container {
+    position: absolute;
+    top: -10em;
+    left: 5em;
+    height: 75em;
+    z-index: 0;
+    width: 75em;
+}
+
+.gradient {
+    height: 100%;
+    width: 100%;
+    position: inherit;
+    background-image: linear-gradient(to top, black, rgba(0, 0, 0, 0.711), transparent);
+}  
+
+.killy {
+    height: 100%;
+    width: 100%;
+    background: 
+        /* Halftone filter using SVG data URI with even smaller dots for a more realistic halftone effect */
+        url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='4' height='4'><circle cx='2' cy='2' r='0.8' fill='black' opacity='0.35'/></svg>") 0 0 / 4px 4px repeat,
+        url("../images/kkilly.png") 0 0 / contain no-repeat;
+}
+
 
 .box {
     width: fit-content;
     height: fit-content;
     padding: 5px;
+    background-color: white;
     border-width: 9px;
     border-style: solid;
-    position: absolute;
-    left: 500px;
-    background-color: white;
-    top: 100px;
-    border-image: url(/images/pixelborder.png) 8 fill round;
+    border-image: url(../images/pixelborder.png) 8 fill round;
 }
 
 .intro {
@@ -43,14 +62,6 @@ body {
     text-align: center;
 }
 
-.killy {
-    position: absolute;
-    z-index: 1;
-    height: 350px;
-    right: 270px;
-    bottom: 100px;
-}
-
 span {
     font-family: 'White on Black';
     font-size: 1.5em;
@@ -58,4 +69,12 @@ span {
 
 .logo {
     margin-top: 5px;
+}
+
+.container1 {
+    position: absolute;
+    z-index: 1;
+    left: 40em;
+    background-image: linear-gradient(to top, black, rgb(0, 0, 0), transparent);
+    top: 100px;
 }

@@ -1,7 +1,7 @@
 html {
     cursor: url(https://files.catbox.moe/b19gxn.cur), auto;
     font-family: 'IPAMonaPGothic';
-    background-image: url(/images/cmIKu.jpeg);
+    background-image: url(../images/cmIKu.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -17,7 +17,7 @@ html {
 .round2 {
     padding: 5px;
     border: 9px solid black;
-    border-image: url(/images/border2.png) 8 fill round;
+    border-image: url(../images/border2.png) 8 fill round;
 
 }
 
@@ -36,7 +36,7 @@ html {
     height: 6em;
     border-radius: 5px;
     overflow: hidden;
-    background-image: url(/images/✩.jpg);
+    background-image: url(../images/✩.jpg);
     background-size: contain;
 }
 
@@ -52,7 +52,7 @@ html {
     gap: 2px;
     display: flex;
     flex-direction: row;
-    background-image: url(/images/dot\ tile.png);
+    background-image: url(../images/dot\ tile.png);
     padding: 5px;
     margin: 0.3em auto;
     border-radius: 5px;
@@ -66,7 +66,7 @@ html {
     display: flex;
     flex-direction: column;
     box-shadow: inset #753e24 0px 5px 3px -3px, inset rgb(129, 67, 42) 0px 0px 5px, inset #a1553e 0px 0px 5px ;
-    background-image: url(/images/tumblr_inline_ml9dovHZ2s1qz4rgp540.gif);
+    background-image: url(../images/tumblr_inline_ml9dovHZ2s1qz4rgp540.gif);
     backdrop-filter: blur(2px);
     padding: 5px;
     gap: 5px;
@@ -76,7 +76,7 @@ html {
     width: fit-content;
     border: 1px solid black;
     height: 4.5em;
-    background-image: url(/images/tumblr_inline_ml9dopLarp1qz4rgp540.gif);
+    background-image: url(../images/tumblr_inline_ml9dopLarp1qz4rgp540.gif);
     text-align: center;
     border-radius: 5px;
     padding: 5px;
@@ -132,7 +132,7 @@ transform: translateX(-100%);
     border: 1px solid black;
     height: 9rem;
     border-radius: 5px;
-    background-image: url(/images/gakuenkil.png);
+    background-image: url(../images/gakuenkil.png);
     background-position: center;
     background-size: cover;
 }
@@ -141,14 +141,14 @@ transform: translateX(-100%);
     border: 1px solid rgb(0, 0, 0);
     width: 100%;
     box-shadow: inset #753e24 0px 5px 3px -3px, inset rgb(129, 67, 42) 0px 0px 5px, inset #a1553e 0px 0px 5px ;
-    background-image: url(/images/dot\ tile.png);
+    background-image: url(../images/dot\ tile.png);
     border-radius: 5px;
 }
 
 .entries {
     height: fit-content;
     box-shadow: inset #753e24 0px 5px 3px -3px, inset rgb(129, 67, 42) 0px 0px 5px, inset #a1553e 0px 0px 5px ;
-    background-image: url(/images/tumblr_inline_ml9dopLarp1qz4rgp540.gif);
+    background-image: url(../images/tumblr_inline_ml9dopLarp1qz4rgp540.gif);
     border: 1px solid rgb(0, 0, 0);
     margin: 0.5rem auto;
     width: 95%;
@@ -164,7 +164,7 @@ h3 {
 }
 
 h3:before {
-    content: url(/images/ghosts.webp);
+    content: url(../images/ghosts.webp);
 }
 
 .entrycon {

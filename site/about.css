@@ -4,6 +4,10 @@ html {
     background-image: url(images/aboutbg.jpg);
 }
 
+.me::-webkit-scrollbar {
+    display: none;
+}
+
 .wrap {
     margin: 3rem auto 1rem auto;
     width: fit-content;
@@ -207,7 +211,7 @@ header {
 
 .me {
     border: 3px double black;
-    height: 93%;
+    height: 25em;
     width: 18em;
     border-top-right-radius: 25%;
     background-color: #ffffff;

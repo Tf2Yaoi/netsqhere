@@ -1,15 +1,13 @@
+/* === Base Styles === */
 html {
     cursor: url(https://files.catbox.moe/b19gxn.cur), auto;
     font-family: 'IPAMonaPGothic';
     background-image: url(images/aboutbg.jpg);
 }
 
-.me::-webkit-scrollbar {
-    display: none;
-}
-
+/* === Main Container === */
 .wrap {
-    margin: 3rem auto 1rem auto;
+    margin: 3rem auto 0.5rem auto;
     width: fit-content;
     height: fit-content;
     border: 4px solid black;
@@ -31,35 +29,45 @@ html {
     height: fit-content;
     width: 40em;
     border-radius: 5px;
-    padding: 10px;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
     background-image: url(images/aboutbg.jpg);
+    padding: 10px;
+    padding-bottom: 15px;
     outline: 4px groove rgb(255, 255, 255);
 }
 
+/* === Around (Main Flex Column) === */
+.around {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+/* === Header === */
 .header {
     width: 100%;
     height: 5em;
     background-color: #ffffff;
     border-radius: 5px;
     border: 1px solid rgb(0, 0, 0);
-    margin-bottom: 5px;
     background-image: url(images/nett.png);
     background-size: contain;
     outline: 4px groove rgb(255, 255, 255);
 }
 
+/* === Top Section (Flex Row) === */
 .top {
-    height: fit-content;
+    height: 30em;
+    width: 40em;
+    overflow: hidden;
     border: 1px solid rgba(0, 0, 0, 0);
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
 
+/* === Left Column === */
 .tleft {
     display: flex;
     flex-direction: column;
@@ -137,11 +145,6 @@ header {
     text-align: center;
 }
 
-.tit2 {
-    padding: 2px;
-    font-size: 1em;
-}
-
 .tit {
     padding-top: 2px;
     text-align: center;
@@ -149,23 +152,9 @@ header {
     margin: 0;
 }
 
-.name {
-    font-family: 'White on Black';
-    position: absolute;
-    top: 10.8em;
-    left: 8.4em;
-    z-index: 2;
-    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
-    font-size: 2.7em;
-    backdrop-filter: blur(2px);
-}
-
-.name:hover {
-    scale: 1.1;
-    image-rendering: pixelated;
-    z-index: 9;
-    -webkit-transition: all .6s ease;
-    transition: all .6s ease;
+.tit2 {
+    padding: 2px;
+    font-size: 1em;
 }
 
 .tit3 img {
@@ -183,15 +172,34 @@ header {
     z-index: 9;
 }
 
+.name {
+    font-family: 'White on Black';
+    position: absolute;
+    top: 11em;
+    left: 8.3em;
+    z-index: 2;
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+    font-size: 2.7em;
+    backdrop-filter: blur(2px);
+}
+
+.name:hover {
+    scale: 1.1;
+    image-rendering: pixelated;
+    z-index: 9;
+    -webkit-transition: all .6s ease;
+    transition: all .6s ease;
+}
+
+/* === Right Column === */
 .tright {
-    width: 54%;
-    display: flex;
-    flex-direction: column;
+    height: 28.3em;
     border: 1px solid rgba(0, 0, 0, 0);
 }
 
 .fullme {
     height: 100%;
+    width: 90%;
     border: 1px solid black;
     padding: 10px;
     border-radius: 5px;
@@ -202,7 +210,7 @@ header {
 
 .meee2 {
     height: fit-content;
-    width: fit-content;
+    width: 95%;
     background-color: white;
     border-top-right-radius: 25%;
     border: 7px solid black;
@@ -211,22 +219,294 @@ header {
 
 .me {
     border: 3px double black;
-    height: 25em;
-    width: 18em;
+    height: 26em;
+    width: 94%;
     border-top-right-radius: 25%;
     background-color: #ffffff;
     overflow: scroll;
     padding: 5px;
     overflow-x: hidden;
 }
-
-.bottom {
-    height: 5em;
-    border: 1px solid black;
+.me p {
+    margin: 0;
 }
 
-.around {
+.extrass {
+    border: 1px dashed black;
+    overflow: scroll;
+    height: 9em;
+}
+.extrass::-webkit-scrollbar {
+    display: none;
+}
+.extrass h1 {
+    margin: 0;
+}
+
+/* === Bottom Section === */
+.bottom {
+    height: 10em;
+    border: 1px solid rgba(0, 0, 0, 0);
+    display: flex;
+    width: 100%;
+    flex-direction: row;
     gap: 10px;
+}
+
+/* === Interests, Kins, Quizzes Columns === */
+.interests, .kins, .quizzes {
+    width: 30%;
+    height: 10em;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 5px;
+    background-image: url(images/mono1.jpg);
+    outline: 4px groove rgb(255, 255, 255);
+    align-content: center;
+    padding: 5px;
+    box-shadow: inset #000000 0px 5px 3px -3px, inset rgb(0, 0, 0) 0px 0px 5px, inset #000000 0px 0px 5px ;
+}
+
+.liek, .kin, .quiz {
+    width: 180px;
+    height: 9em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.liek, .kin, .quiz {
     display: flex;
     flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+    background: url(images/bg.png);
+    background-size: contain;
+    overflow-y: scroll;
+    box-shadow: inset #ffffff 0px 5px 3px -3px, inset white 0px 0px 5px, inset #ffffff 0px 0px 5px ;
+
+}
+
+/* === Animanga, Games, Movies === */
+.animanga, .games, .movies, .music {
+    width: 100%;
+    height: 3.5em;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: inset #0000003e 0px 5px 3px -3px, inset rgba(0, 0, 0, 0.214) 0px 0px 5px, inset #00000048 0px 0px 5px ;
+    border-radius: 5px;
+    transition: ease 0.3s;
+}
+
+mark {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+/* animanga */
+.animanga:hover {
+    height: 15em;
+    transition: cubic-bezier(0.23, 1, 0.320, 1) 0.3s;
+}
+.animanga::-webkit-scrollbar {
+    display: none;
+}
+.animanga p, h2 {
+    margin: 0;
+}
+.animanga h2 {
+    font-family: 'Vogue';
+    font-size: 2em;
+    margin-top: .1em;
+}
+/* animanga */
+
+/* games */
+.games::-webkit-scrollbar {
+    display: none;
+}
+.games p, h2 {
+    margin: 0;
+}
+.games:hover {
+    height: 15em;
+    transition: cubic-bezier(0.23, 1, 0.320, 1) 0.3s;
+}
+.games h2 {
+    font-family: 'Vogue';
+    font-size: 2.5em;
+    margin-top: .05em;
+}
+/* games */
+
+/* movies */
+.movies::-webkit-scrollbar {
+    display: none;
+}
+.movies p, h2 {
+    margin: 0;
+}
+.movies:hover {
+    height: 15em;
+    transition: cubic-bezier(0.23, 1, 0.320, 1) 0.3s;
+}
+.movies h2 {
+    font-family: 'Vogue';
+    font-size: 1.7em;
+    margin-top: .2em;
+}
+/* movies */
+
+/* music */
+.music:hover {
+    height: 15em;
+    transition: cubic-bezier(0.23, 1, 0.320, 1) 0.3s;
+}
+.music p, h2 {
+    margin: 0;
+}
+.music h2 {
+    font-family: 'Vogue';
+    font-size: 2em;
+    margin-top: .1em;
+    
+}
+.music::-webkit-scrollbar {
+    display: none;
+}
+/* music */
+
+/* kins */
+.kin {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+}
+.kin h1 {
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: inset #0000003e 0px 5px 3px -3px, inset rgba(0, 0, 0, 0.214) 0px 0px 5px, inset #00000048 0px 0px 5px ;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 1.5em;
+    font-family: 'Vogue';
+    margin: 0;
+    position: relative;
+}
+.kinnies {
+    position: relative;
+    width: 168px;
+    border: 1px solid black;
+    margin: 0;
+    height: 100%;
+    align-content: center;
+    border-radius: 5px;
+    box-shadow: inset #0000003e 0px 5px 3px -3px, inset rgba(0, 0, 0, 0.214) 0px 0px 5px, inset #00000048 0px 0px 5px ;
+    background-color: white;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 5px;
+}
+.kinnies div {
+    width: 5em;
+    background-color: #494646;
+    float: none;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+    margin: 0 0.25%;
+    display: inline-block;
+    zoom: 1;
+}
+.kinnies::-webkit-scrollbar {
+    display: none;
+}
+.kinnies p {
+    margin: 0;
+}
+/* kins */
+
+/* quiz */
+.quiz h1 {
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: inset #0000003e 0px 5px 3px -3px, inset rgba(0, 0, 0, 0.214) 0px 0px 5px, inset #00000048 0px 0px 5px ;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 1.5em;
+    font-family: 'Vogue';
+    margin: 0;
+    position: relative;
+}
+.results {
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #ffffff;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-shadow: inset #0000003e 0px 5px 3px -3px, inset rgba(0, 0, 0, 0.214) 0px 0px 5px, inset #00000048 0px 0px 5px ;
+    padding: 5px;
+}
+.results::-webkit-scrollbar {
+    display: none;
+}
+.results img {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    -webkit-transition: all .6s ease;
+    transition: all .6s ease;
+}
+.results img:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    z-index: 9;
+}
+/* quiz */
+
+/* footer */
+.footer {
+    margin: 1rem auto 0rem auto;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 2em;
+    padding-top: 4px;
+    box-shadow: inset #0000003e 0px 5px 3px -3px, inset rgba(0, 0, 0, 0.214) 0px 0px 5px, inset #00000048 0px 0px 5px ;
+    outline: 4px groove rgb(255, 255, 255);
+    background-color: #ffffff;
+}
+.footer p {
+    margin: 0;
+}
+.footer a {
+    color: black;
+    text-decoration: none;
+}
+
+/* === Miscellaneous === */
+span {
+    font-weight: bold;
+    color: rgb(131, 29, 29);
+}
+
+/* === Hide Scrollbars for Custom Elements === */
+.me::-webkit-scrollbar {
+    display: none;
+}
+.liek::-webkit-scrollbar {
+    display: none;
+}
+.kin::-webkit-scrollbar {
+    display: none;
+}
+.quiz::-webkit-scrollbar {
+    display: none;
 }

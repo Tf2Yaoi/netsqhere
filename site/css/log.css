@@ -1,5 +1,5 @@
 body { 
-    background-image: linear-gradient(transparent, #ffffffa3), url(/images/IY2WP.jpeg);
+    background-image: linear-gradient(transparent, #ffffffa3), url(../images/IY2WP.jpeg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;

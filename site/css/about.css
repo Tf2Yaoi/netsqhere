@@ -2,7 +2,7 @@
 html {
     cursor: url(https://files.catbox.moe/b19gxn.cur), auto;
     font-family: 'IPAMonaPGothic';
-    background-image: url(images/aboutbg.jpg);
+    background-image: url(../images/aboutbg.jpg);
 }
 
 /* === Main Container === */
@@ -12,7 +12,7 @@ html {
     height: fit-content;
     border: 4px solid black;
     padding: 15px;
-    background-image: url(images/mono1.jpg);
+    background-image: url(../images/mono1.jpg);
     border-radius: 5px;
     outline: 4px groove rgb(255, 255, 255);
 }
@@ -21,7 +21,7 @@ html {
     padding: 5px;
     border: 9px solid black;
     background-color: white;
-    border-image: url(images/pixelborder.png) 8 fill round;
+    border-image: url(../images/pixelborder.png) 8 fill round;
 }
 
 .wrapper {
@@ -30,7 +30,7 @@ html {
     width: 40em;
     border-radius: 5px;
     background-size: cover;
-    background-image: url(images/aboutbg.jpg);
+    background-image: url(../images/aboutbg.jpg);
     padding: 10px;
     padding-bottom: 15px;
     outline: 4px groove rgb(255, 255, 255);
@@ -51,7 +51,7 @@ html {
     background-color: #ffffff;
     border-radius: 5px;
     border: 1px solid rgb(0, 0, 0);
-    background-image: url(images/nett.png);
+    background-image: url(../images/nett.png);
     background-size: contain;
     outline: 4px groove rgb(255, 255, 255);
 }
@@ -81,14 +81,14 @@ html {
     width: fit-content;
     background-color: white;
     border: 9px solid rgba(0, 0, 0, 0);
-    border-image: url(images/pixelborder.png) 8 fill round;
+    border-image: url(../images/pixelborder.png) 8 fill round;
     border-radius: 5px;
 }
 
 .pfp {
     width: 17em;
     height: 17em;
-    background-image: url(images/killer.jpg);
+    background-image: url(../images/killer.jpg);
     background-position: center;
     border-radius: 5px;
     background-size: cover;
@@ -105,7 +105,7 @@ html {
 }
 
 header {
-    background-image: url(images/lacee.png);
+    background-image: url(../images/lacee.png);
     background-repeat: repeat;
     background-position: top center;
     width: 100%;
@@ -121,7 +121,7 @@ header {
 .burb {
     border: 1px solid rgb(0, 0, 0);
     height: fit-content;
-    background-image: url(images/mono1.jpg);
+    background-image: url(../images/mono1.jpg);
     background-size: contain;
     border-radius: 5px;
     padding: 5px;
@@ -132,7 +132,7 @@ header {
     height: fit-content;
     background-color: white;
     border: 7px solid black;
-    border-image: url(images/pixelborder.png) 8 fill round;
+    border-image: url(../images/pixelborder.png) 8 fill round;
 }
 
 .meee {
@@ -203,7 +203,7 @@ header {
     border: 1px solid black;
     padding: 10px;
     border-radius: 5px;
-    background-image: url(images/mono1.jpg);
+    background-image: url(../images/mono1.jpg);
     background-size: contain;
     outline: 4px groove rgb(255, 255, 255);
 }
@@ -214,7 +214,7 @@ header {
     background-color: white;
     border-top-right-radius: 25%;
     border: 7px solid black;
-    border-image: url(images/pixelborder.png) 8 fill round;
+    border-image: url(../images/pixelborder.png) 8 fill round;
 }
 
 .me {
@@ -260,7 +260,7 @@ header {
     border: 1px solid rgb(0, 0, 0);
     background-color: white;
     border-radius: 5px;
-    background-image: url(images/mono1.jpg);
+    background-image: url(../images/mono1.jpg);
     outline: 4px groove rgb(255, 255, 255);
     align-content: center;
     padding: 5px;
@@ -282,7 +282,7 @@ header {
     flex-direction: column;
     gap: 5px;
     padding: 5px;
-    background: url(images/bg.png);
+    background: url(../images/bg.png);
     background-size: contain;
     overflow-y: scroll;
     box-shadow: inset #ffffff 0px 5px 3px -3px, inset white 0px 0px 5px, inset #ffffff 0px 0px 5px ;

@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 /* === Base Styles === */
 html {
     background-image: url(../images/nett.png);
@@ -16,8 +20,8 @@ body {
 /* === Navigation Sidebar === */
 nav {
     border: 9px solid rgb(0, 0, 0);
-    width: 165px;
-    height: 28em;
+    width: 11.4em;
+    height: 27em;
     overflow: hidden;
     background-color: white;
     border-radius: 10px;
@@ -98,6 +102,7 @@ nav iframe {
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
     position: relative;
+    padding: 10px;
     z-index: 0;
     overflow: hidden;
     outline: 4px groove rgb(255, 255, 255);
@@ -108,7 +113,6 @@ nav iframe {
     border: 1px solid rgba(0, 0, 0, 0.38);
     height: 100px;
     width: 100%;
-    margin: 9px;
     border-radius: 30px;
     background-image: url(../images/headbg.jpg);
     background-size: cover;
@@ -133,8 +137,8 @@ p span {
 
 /* === Fanlisting Marquee === */
 .fanl {
-    width: 790px;
-    margin: 5px;
+    width: 780px;
+    margin-top: 5px;
     border-radius: 5px;
     height: 50px;
     overflow: hidden;
@@ -161,11 +165,11 @@ p span {
 
 /* === Main Flex Section === */
 .main {
-    border: 1px solid rgba(0, 0, 0, 0);
-    height: fit-content;
-    width: 790px;
-    margin: 5px;
+    border: 1px solid rgba(211, 28, 28, 0);
+    height: 410px;
+    width: 100%;
     display: flex;
+    margin-top: 5px;
     flex-direction: row;
     gap: 5px;
 }
@@ -173,7 +177,7 @@ p span {
 /* --- Left Column --- */
 .left {
     border: 1px solid rgb(0, 0, 0);
-    height: 410px;
+    height: 100%;
     width: 300px;
     border-radius: 5px;
     display: flex;
@@ -205,17 +209,19 @@ p span {
     box-shadow: inset #000000 0px 5px 3px -3px, inset white 0px 0px 5px, inset #000000 0px 0px 5px ;
 }
 .todo h2 {
+    margin: 0;
     font-family: 'White on Black';
 }
 .todo li {
+    margin: 0;
+    text-align: left;
     list-style: none;
-    padding-bottom: 5px;
 }
 
 /* --- Right Column --- */
 .right {
     border: 1px solid black;
-    height: 400px;
+    height: 100%;
     width: 100%;
     border-radius: 5px;
     display: flex;
@@ -227,10 +233,10 @@ p span {
 .intro {
     border: 1px solid black;
     height: 460px;
-    width: 560px;
+    width: 100%;
     border-radius: 5px;
     overflow: hidden;
-    padding: 10px;
+    padding: 4px;
     font-size: 14px;
     background-color: #ffffff;
     display: flow-root;
@@ -238,6 +244,11 @@ p span {
 }
 .intro p {
     margin: 0;
+}
+.twoo {
+    flex-direction: row;
+    display: flex;
+    gap: 5px;
 }
 #hi {
     margin: 0;
@@ -266,38 +277,35 @@ p span {
     width: 580px;
     border-radius: 5px;
     display: flex;
+    padding: 2px;
     flex-direction: row;
     background-image: url(../images/graybat.png);
     gap: 5px;
 }
 .status {
     border: 1px solid black;
-    width: 50%;
-    margin: 2px;
+    width: 20em;
+    padding: 5px;
+    height: 9em;
     border-radius: 5px;
     background-image: url(../images/scape.jpg);
     box-shadow: inset #ffffff 0px 5px 3px -3px, inset white 0px 0px 5px, inset #ffffff 0px 0px 5px ;
 }
 #statuscafe-username {
-    position: relative;
-    left: 10px;
+    margin: 0;
     text-shadow: -0.5px -0.5px 0 #ffffff, 0.5px -0.5px 0 #ffffff, -0.5px 0.5px 0 #ffffff, 0.5px 0.5px 0 #ffffff;
 }
 .status a {
     color: #a01818;
     text-decoration: none;
 }
-.status a:visited {
-    color: #a01818;
-}
 .status a:hover {
     color: #2114d3;
 }
 #statuscafecontent {
     border: 1px solid rgb(92, 91, 91);
-    height: 100px;
-    width: 92%;
-    margin: 5px;
+    height: 85%;
+    width: 100%;
     border-radius: 5px;
     background-color: #ffffff;
     padding: 5px;
@@ -309,7 +317,6 @@ p span {
 .mood {
     border: 1px solid black;
     width: 50%;
-    margin: 2px;
     border-radius: 5px;
     display: flex;
     flex-direction: row;
@@ -354,10 +361,10 @@ p span {
 
 /* === Main2 Section === */
 .main2 {
-    height: 550px;
+    height: fit-content;
     border: 1px solid rgba(183, 12, 12, 0);
-    margin: 5px;
-    width: 790px;
+    margin-top: 5px;
+    width: 100%;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -366,7 +373,7 @@ p span {
 
 /* --- Terminal Log --- */
 .log {
-    height: 3000px;
+    height: 10em;
     border: 1px solid black;
     width: 100%;
     border-radius: 5px;
@@ -382,6 +389,8 @@ p span {
     padding-right: 10px;
     padding-bottom: 5px;
     padding-left: 5px;
+    position: relative;
+    z-index: 2;
     font-size: 2em;
     font-family: 'White on Black';
     background-image: url(../images/mono1.jpg);
@@ -390,11 +399,10 @@ p span {
     box-shadow: inset #ffffff 0px 5px 3px -3px, inset white 0px 0px 5px, inset #ffffff 0px 0px 5px ;
 }
 .log iframe {
-    margin: 5px;
-    height: 75%;
-    width: 98%;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    width: 100%;
+    height: 90%;
+    border: none;
+    margin-inline: 10px;
     border: 2px solid black;
     border-radius: 5px;
     box-shadow: inset #000000 0px 5px 3px -3px, inset rgb(0, 0, 0) 0px 0px 5px, inset #000000 0px 0px 5px ;
@@ -404,6 +412,7 @@ p span {
 .round {
     display: flex;
     gap: 5px;
+    margin-top: 5px;
     flex-direction: column;
 }
 .stamps {
@@ -439,7 +448,7 @@ p span {
 .box {
     width: 100%;
     border: 1px solid rgba(15, 2, 2, 0);
-    height: fit-content;
+    height: 320px;
     border-radius: 5px;
     display: flex;
     flex-direction: row;
@@ -456,7 +465,7 @@ p span {
     height: 100%;
 }
 .buttons {
-    height: 310px;
+    height: 100%;
     border: 1px solid black;
     width: 40%;
     padding: 5px;
@@ -501,7 +510,7 @@ p span {
     font-size: 2em;
 }
 .webring {
-    height: 310px;
+    height: 100%;
     width: 30%;
     border: 1px solid black;
     border-radius: 5px;
@@ -538,13 +547,12 @@ p span {
 }
 .ring {
     border: 1px solid rgba(0, 0, 0, 0);
-    height: 80%;
+    height: 100%;
     overflow-y: scroll;
     overflow-x: hidden;
-    width: 90%;
+    width: 100%;
     text-align: center;
     padding: 5px;
-    margin: 5px;
     margin-top: 40px;
 }
 .ring::-webkit-scrollbar {
@@ -567,8 +575,8 @@ p span {
     margin-top: 5px; 
     padding: 5px;
     position: absolute;
-    left: 840px;
-    top: 75px;
+    right: 9em;
+    top: 9em;
     background-image: url(../images/mono1.jpg);
     background-size: contain;
     align-items: center;

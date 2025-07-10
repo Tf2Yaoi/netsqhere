@@ -1,0 +1,185 @@
+/* === Base Styles === */
+html {
+    cursor: url(https://files.catbox.moe/b19gxn.cur), auto;
+    font-family: 'IPAMonaPGothic';
+    background-size: contain;
+    background-image: url(https://64.media.tumblr.com/26cb310e3d658561b451da499749fd5a/53caa0208f04cde2-46/s1280x1920/ccb247d3d2172fb09fee58e176313faa0b1df585.jpg);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* container dec */
+.wrap {
+    margin: 3rem auto 0.5rem auto;
+    width: fit-content;
+    height: fit-content;
+    border: 4px solid black;
+    padding: 15px;
+    background-image: url(../images/bg.png);
+    background-size: contain;
+    box-shadow: inset #ffffff 0px 5px 3px -3px, inset white 0px 0px 5px, inset #ffffff 0px 0px 5px ;
+    border-radius: 5px;
+    outline: 4px groove rgb(255, 255, 255);
+    
+}
+
+
+.wrap3 {
+    border: 4px double rgb(0, 0, 0);
+    height: 40em;
+    width: 45em;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    outline: 4px groove rgb(255, 255, 255);
+}
+
+/* ar main content */
+
+.around {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    border: 1px solid rgba(235, 29, 29, 0);
+    height: 100%;
+}
+
+/* main content */
+.header {
+    border: 1px solid black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px;
+    background-size: contain;
+    background-image: url(https://i.pinimg.com/736x/87/28/2f/87282ff55d58a1535e00ae8151e890dc.jpg);
+    box-shadow: inset #ffffff 0px 5px 3px -3px, inset #ffffff 0px 0px 5px, inset #777575 0px 0px 5px ;
+    height: 25%;
+    width: 100%;
+}
+#wobble {
+    font-family: 'Vogue';
+    font-size: 5em;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-align: right;
+}
+.inhead {
+    border: 1px solid black;
+    height: 100%;
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+    box-shadow: inset #989898 0px 5px 3px -3px, inset #989898 0px 0px 5px, inset #989898 0px 0px 5px ;
+    background-image: url(https://64.media.tumblr.com/eb1e65e7497f5b502fec27037b2c2ba2/1bdc4f1063fdbd36-d7/s500x750/8b04ac5b854cbb3179fb6efb7868a628378948c3.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+.con {
+    height: 75%;
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    background-position: bottom;
+    background-size: contain;
+    background-image: url(https://i.pinimg.com/736x/10/b9/7d/10b97da22b6bfba4e00f0779cca10085.jpg);
+    flex-direction: row;
+}
+
+/* left */
+.left {
+    width: 30%;
+    padding: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.pfp {
+    height: 10em;
+    background-image: url(../images/killy-confused.gif);
+    box-shadow: inset #ffffff 0px 5px 3px -3px, inset white 0px 0px 5px, inset #ffffff 0px 0px 5px ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+header {
+    background-image: url(../images/lacee.png);
+    height: 1em;
+}
+.blrb {
+    height: 70%;
+    border: 1px dashed black;
+    border-radius: 5px;
+    background-position: center;
+    text-align: center;
+    background-size: contain;
+    background-image: url(https://i.pinimg.com/736x/cb/14/34/cb143482d708974c6d977e0abf3b1e08.jpg);
+    background-color: #ffffff;
+    padding: 5px;
+}
+a {
+    color: rgb(0, 0, 0);
+    font-family: 'Vogue';
+    font-size: 1.5em;
+    text-decoration: none;
+}
+.linkies {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    background-color: #ffffff;
+}
+/* left */
+.right {
+    width: 70%;
+    border: 1px solid black;
+    padding: 5px;
+}
+.open {
+    border: 1px solid black;
+    height: 100%;
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+    width: 100%;
+    padding: 3em;
+    text-align: center;
+    border-radius: 5px;
+    backdrop-filter: blur(2px);
+}
+.artcase {
+    border: 1px solid black;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border-radius: 5px;
+    box-shadow: inset #ffffff 0px 5px 3px -3px, inset #ffffff 0px 0px 5px, inset #777575 0px 0px 5px ;
+    background-color: #000000cf;
+    padding: 10px;
+}
+.artcase::-webkit-scrollbar {
+    display: none;
+}
+.art {
+    margin-top: 5px;
+    border: 1px dashed black;
+    border-radius: 5px;
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    box-shadow: inset #ffffff 0px 5px 3px -3px, inset #ffffff 0px 0px 5px, inset #777575 0px 0px 5px ;
+    padding: 5px;
+    background-color: #ffffff;
+}
+.art p, h1 {
+    margin: 0;
+}
+.right::-webkit-scrollbar {
+    display: none;
+}
+
+
+

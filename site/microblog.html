@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Thoughts of a safeguard.</title>
+        <link rel="stylesheet" href="css/diary.css">
+        <link rel="icon" type="image/x-icon" href="/images/favicon.gif">
+    </head>
+    <body>
+        <div class="around">
+            <div class="round2">
+                <div class="wrap">
+                    <div class="head">
+                        <h1>Diary of a safeguard...</h1>
+                    </div>
+                    <div class="block">
+                        <div class="nav">
+                            <div class="pic"></div>
+                            <div class="musicplayer">
+                                <p>Now Playing:</p>
+                                <div class="player">
+                                    <div id="img">
+                                        <p>
+                                            <img src="/images/emo.gif" id="PlayImg" title="Play Button">
+                                        </p>
+                                    </div>
+                                    <div id="song">
+                                        <p>Perspective by Polite Fiction</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="entries">
+                                <h3>
+                                    First entry, wowowo
+                                </h3>
+                                <i>
+                                    <span>Date:</span> 06.01.2025
+                                    <span>Feeling:</span> Fine.
+                                </i>
+                                <div class="entrycon">
+                                    <p>First entry of my diary! I'm gonna use this as a micro-blog I think. I've been feeling much more relieved now that the sites main page is finished and people can now acess it.</p>
+                                    <p>For a long time, I kinda just thought and worried about my site without really sitting down and working on it.</p>
+                                    <p>For some reason I just really couldn't bring myself to work on it at all, even though when I first made the site back in september, I couldn't STOP working on it...</p>
+                                    <p>Also, Happy Pride Month</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+<style>
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}    
+</style>
+
+<audio id="audio" src="https://files.catbox.moe/n21b5v.mp3"></audio>
+<script>
+    audio.loop = true;
+    document.getElementById("PlayImg").onclick
+    = function() {
+    var audio = document.getElementById("audio");
+    if (audio.paused)
+    audio.play();
+        else
+    audio.pause();
+    };
+</script>

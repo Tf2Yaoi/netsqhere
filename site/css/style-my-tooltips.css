@@ -1,0 +1,18 @@
+/* style-my-tootltips plugin, tooltip styling */
+#s-m-t-tooltip{
+	/* basic */
+	max-width:300px;
+	z-index:10;
+	margin:24px 14px 7px 12px;
+	/* style and design */
+	background: linear-gradient(0deg, rgba(218, 218, 218, 1) 0%, rgba(255, 255, 255, 1) 38%);
+    box-shadow: inset 0px 0px 3px rgb(185 185 185), inset 0 0 1px 2px #ffffff;
+    border: 2px ridge #002c54;
+    outline: 1px ridge #f7a919;
+	border-radius: 5px;
+	padding: 5px;
+	/* font */
+	font-size:11px;
+	line-height:16px;
+	color:#000000;
+}

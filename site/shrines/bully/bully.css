@@ -1,0 +1,200 @@
+html {
+    background-image: url(wallpaper2.jpg);
+    background-size: contain;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+#bullytit {
+    position: absolute;
+    z-index: 5;
+    height: 50px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+#jimmy {
+    position: absolute;
+    z-index: 5;
+    height: 300px;
+    margin-top: 510px;
+    margin-left: 570px;
+}
+
+.container {
+    outline: 3px solid #002c54;
+    border: 2px solid #f7a919;
+    height: fit-content;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #002c54;
+    background-image: url(argyle.png);
+}
+
+.container2 {
+    height: 715px;
+    width: 600px;
+    background: linear-gradient(0deg, rgba(218, 218, 218, 1) 0%, rgba(255, 255, 255, 1) 38%);
+    box-shadow: inset 0px 0px 3px rgb(185 185 185), inset 0 0 1px 2px #ffffff;
+    border: 2px dashed black;
+    outline: 1px ridge #f7a919;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 5px;
+
+}
+
+.header {
+    position: relative;
+    border: 1px solid rgb(255, 255, 255);
+    height: 120px;
+    background-color: #002c54;
+    background-image: url(argyle.png);
+    border-radius: 5px;
+    outline: 2px solid rgb(0, 0, 0);
+    padding: 12px;
+}
+
+.head {
+    border: 4px double rgb(0, 0, 0);
+    outline: 1px solid white;
+    height: 100%;
+    background-image: url(library_hero_2x.jpg);
+    background-size: cover;
+    background-position: right;
+    border-radius: 5px;
+}
+
+#title {
+    color: #f7a919;
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+    font-size: 70px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: -16px;
+}
+
+.middle {
+    height: fit-content;
+    outline: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: #002c54;
+    display: flex;
+    padding: 5px;
+    gap: 5px;
+    flex-direction: column;
+    background-image: url(argyle.png);
+}
+
+#desc {
+    height: 110px;
+    border: 1px solid rgb(123, 123, 123);
+    border-radius: 5px;
+    padding: 5px;
+    background: linear-gradient(0deg, rgba(218, 218, 218, 1) 0%, rgba(255, 255, 255, 1) 38%);
+    box-shadow: inset 0px 0px 3px rgb(185 185 185), inset 0 0 1px 2px #ffffff;
+}
+
+#logo {
+    height: 100px;
+    float: left;
+    shape-outside: url(logo.png);
+    shape-margin: 10px;
+}
+#desc p {
+    font-size: 14px;
+}
+strong {
+    color: #f7a919;
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+}
+
+#tit2, h3 {
+    color: #f7a919;
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+    position: absolute;
+}
+#tit2 {
+    margin-top: 95px;
+    margin-left: -15px;
+}
+
+#chars {
+    display: flex;
+    flex-direction: row;
+    border: 0px solid black;
+    height: 120px;
+    gap: 2px;
+}
+
+#jim, #gary, #pete {
+    width: 33%;
+    border: 1px solid rgb(123, 123, 123);
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 14px;
+    background: linear-gradient(0deg, rgba(218, 218, 218, 1) 0%, rgba(255, 255, 255, 1) 38%);
+    box-shadow: inset 0px 0px 3px rgb(185 185 185), inset 0 0 1px 2px #ffffff;
+    overflow-y: scroll;
+}
+
+#cliques {
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    gap: 2px;
+}
+.clique {
+    border: 1px solid black;
+    width: 100px;
+    background-position: center;
+    border-radius: 5px;
+}
+
+#bottom {
+    height: 200px;
+    outline: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: #002c54;
+    display: flex;
+    padding: 5px;
+    gap: 5px;
+    flex-direction: row;
+    background-image: url(argyle.png);
+}
+
+#funfacts, #artwork {
+    border: 1px solid black;
+    width: 50%;
+    padding: 5px;
+    overflow-y: scroll;
+    border-radius: 5px;
+    background: linear-gradient(0deg, rgba(218, 218, 218, 1) 0%, rgba(255, 255, 255, 1) 38%);
+    box-shadow: inset 0px 0px 3px rgb(185 185 185), inset 0 0 1px 2px #ffffff;
+}
+
+#funfacts li::before {
+    content: url(swirl.gif);
+}
+
+#artwork p {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    overflow-x: scroll;
+}

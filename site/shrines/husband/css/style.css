@@ -1,0 +1,106 @@
+html {
+    background-image: url(../images/bg.png);
+    background-size: cover;
+}
+
+body {
+    box-sizing: border-box;
+    display: block;
+    font-family: 'Schoolbell', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.text {
+    width: 70%;
+    height: 90%;
+    position: relative;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.text::-webkit-scrollbar {
+    display: none;
+}
+
+.blinkies {
+    position: relative;
+    height: 12%;
+    width: 80%;
+    overflow-x: hidden;
+}
+
+.blinkies div {
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    animation: marq 19s linear 0s 1 normal none;
+    animation-iteration-count: infinite;
+}
+
+#envelope {
+    position: absolute;
+    height: 300px;
+    left: 20em;
+    top: 15em;
+    transform: rotate(-30deg);
+}
+
+@keyframes rotation {
+    from {
+    transform: rotate(-30deg); /* Starting rotation angle */
+    }
+    to {
+    transform: rotate(5deg); /* Ending rotation angle */
+    }
+}
+
+.letter {
+    background-image: url(../images/letter.png);
+    width: 450px;
+    height: 530px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    margin-left: auto;
+    overflow: hidden;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    align-items: center;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+}
+
+#pen {
+    height: 370px;
+    position: absolute;
+    right: 15em;
+    top: 8.5em;
+
+    animation-name: rotation;
+    animation-duration: 2s; /* Duration for one full cycle (back and forth) */
+    animation-iteration-count: infinite; /* Keeps the animation repeating forever */
+    animation-timing-function: ease-in-out; /* Smooths the start and end of each direction */
+    animation-direction: alternate;
+}
+
+#wolf {
+    position: absolute;
+    margin-left: 47em;
+    margin-top: 26em;
+    height: 190px;
+}
+
+#bubble {
+    position: absolute;
+    right: 20em;
+    top: 24em;
+    height: 90px;
+}

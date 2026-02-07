@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/dhomo2.png);
+    background-repeat: no-repeat;
+    background-size: 410px;
+    font-family: 'IPAMonaPGothic';
+}
+
+#dhomo {
+    height: 550px;
+    float: left;
+    shape-outside: url(../images/dhomo.png);
+    shape-margin: 2px;
+    clip-path: url(../images/dhomo.png);
+}
+
+.container {
+    width: 660px;
+    margin-left: 200px;
+    margin-top: 50px;
+    font-size: 12px;
+}
+#para ul, li {
+    list-style: none;
+}
+
+h1 {
+    font-family: 'Alphabet Minus Eighty';
+}
+#links a:hover {
+    letter-spacing: 0.5px;
+    transition: 1s ease-in-out;
+}
+#links a {
+    color: #a72608;
+}
+
+.footer {
+    margin-left: 200px;
+    margin-top: 270px;
+}

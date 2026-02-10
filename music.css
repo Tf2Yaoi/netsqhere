@@ -1,0 +1,11 @@
+html {
+    background-color: #262324;
+    background-image: url(../images/dhomo_bg.png);
+    background-repeat: no-repeat;
+    background-size: auto 600px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+}

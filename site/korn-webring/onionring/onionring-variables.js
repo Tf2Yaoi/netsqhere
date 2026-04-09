@@ -8,7 +8,8 @@
 //the full URLs of all the sites in the ring
 var sites = [
 'https://netsqhere.neocities.org/',
-'http://127.0.0.1:3000/site/korn-webring/join.html'
+'http://127.0.0.1:3000/site/korn-webring/join.html',
+'http://127.0.0.1:3000/site/index.html'
 ];
 
 //the name of the ring
@@ -22,7 +23,7 @@ var ringID = 'korn-ring';
 //should the widget include a link to an index page?
 var useIndex = true;
 //the full URL of the index page. if you're not using one, you don't have to specify anything here
-var indexPage = '';
+var indexPage = 'https://netsqhere.neocities.org/korn-webring/';
 
 //should the widget include a random button?
 var useRandom = false;

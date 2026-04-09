@@ -8,8 +8,6 @@
 //the full URLs of all the sites in the ring
 var sites = [
 'https://netsqhere.neocities.org/',
-'http://127.0.0.1:3000/site/korn-webring/join.html',
-'http://127.0.0.1:3000/site/index.html'
 ];
 
 //the name of the ring

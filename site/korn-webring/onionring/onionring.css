@@ -5,33 +5,33 @@
 /* === ONIONRING.CSS === */
 /* this file affects the style of the widget. remember to replace all instances of #webringid with whatever value you have for ringID in the onionring-widget.js file. make sure it still has the # at the front, though! probably easiest to use find+replace to do it */
 
-#webringid {
+#korn-ring {
   margin: 0 auto;
   align-self: center;
   padding: 15px; /* creates some space around the widget */
 }
 
-#webringid table {
-  background-color: #ffffff; /* makes the background pure white */
+#korn-ring table {
+  background-color: #ffffff00; /* makes the background pure white */
   margin: 0 auto; /* centers the widget */
 }
 
-#webringid table tr td {
+#korn-ring table tr td {
   padding: 15px; /* creates some space between the links and text inside the widget */
 }
 
-#webringid .webring-prev {
+#korn-ring .webring-prev {
   text-align:right;
 }
 
-#webringid .webring-info {
+#korn-ring .webring-info {
   text-align:center;
 }
 
-#webringid .webring-next {
+#korn-ring .webring-next {
   text-align:left;
 }
 
-#webringid .webring-links {
-  font-size:small;
+#korn-ring .webring-links {
+  font: size 30px;;
 }

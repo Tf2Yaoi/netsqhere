@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHILDREN OF THE KORN RING - KORN WEBRING</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="onionring/onionring-variables.js"></script>
+    <script>
+        // Wait until members.js loads
+        document.addEventListener('DOMContentLoaded', () => {
+            const countSpan = document.getElementById('member-count');
+            if (typeof sites !== 'undefined' && countSpan) {
+                countSpan.textContent = sites.length;
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <img src="images/pagedoll-korn.png" id="pagedoll">
+    <div class="container">
+        <div class="cont2">
+            <div class="banner"></div>
+            <div class="nav">
+                <a href="index.html">Home</a>
+                <a href="rules.html">Rules</a>
+                <a href="members.html">Members</a>
+                <a href="join.html">Join</a>
+            </div>
+            <div class="bottom">
+                <div id="nav">
+                    <div>
+                        <img src="images/stamp2.webp">
+                        <img src="images/stamp4.gif">
+                        <img src="https://files.catbox.moe/9zy4j7.webp">
+                        <img src="images/korncon.gif">
+                        <iframe width="90" height="90" style="border:none" src="https://evehibi.nekoweb.org/ringlink/"
+                            name="ringlink"></iframe>
+                        <img src="https://files.catbox.moe/x2qdwz.webp">
+                    </div>
+                </div>
+                <div id="content">
+                    <h2>Total members: <span id="member-count"></span></h2>
+                    <div id="index">
+                        <div class="member">
+                            <div class="memtit">
+                                <img src="images/issues.gif" height="100px">
+                                <div>
+                                    <img src="buttons/netsphere.gif">  <span>JAMIE</span>
+                                    <a href="https://netsqhere.neocities.org/"
+                                        target="_blank">netsqhere.neocities.org</a>
+                                    <p>
+                                        Favorite song / album: <span>Issues / Trash</span><br>
+                                        First webmaster to access the netsphere + creator of the webring.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

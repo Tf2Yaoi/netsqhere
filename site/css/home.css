@@ -26,10 +26,33 @@ html {
     z-index: 500;
     position: absolute;
     margin-top: 32.4em;
-    margin-left: 70em;
+    margin-left: 69em;
     transform: scaleX(-1);
     height: 500px;
 }
+
+.cbox {
+    position: absolute;
+    z-index: 500;
+    padding: 1px;
+    border-image: url(../images/SP-2.png) 8 fill round;
+    border-width: 9px;
+    margin-left: 47em;
+    border-style: solid;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 31em;
+}
+
+#cbox {
+    border-radius: 5px;
+    outline: 3px double #bbc5aa;
+    padding: 5px;
+    border: 1px dashed #dde2c6;
+}
+
 
 #killy {
     z-index: 500;

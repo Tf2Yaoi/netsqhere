@@ -47,6 +47,8 @@ html {
 }
 
 #cbox {
+    width: 250px;
+    height: 350px;
     border-radius: 5px;
     outline: 3px double #bbc5aa;
     padding: 5px;

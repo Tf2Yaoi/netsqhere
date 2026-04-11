@@ -8,7 +8,6 @@
 //the full URLs of all the sites in the ring
 var sites = [
 'https://netsqhere.neocities.org/',
-'https://netsphere.nekoweb.org/'
 ];
 
 //the name of the ring

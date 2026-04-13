@@ -182,3 +182,7 @@ span {
 .member p {
     text-align: left;
 }
+
+.member * {
+    margin: 0;
+}
